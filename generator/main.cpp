@@ -32,6 +32,14 @@ void rand_generator(const std::string& file, SIZE SZ) {
         rand_numbers[I] = std::rand();
     }
 
+    FILE.write(reinterpret_cast<const char*>(rand_numbers.data()), rand_numbers.size() * sizeof(int));
+
+    if (!FILE) {
+        std::cerr << "Hubo un error escribiendo los datos en el archivo" << std::endl;
+    }
+
+    FILE.close();
+
 
 }
 
