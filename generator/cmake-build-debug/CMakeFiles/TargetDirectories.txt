@@ -1,0 +1,3 @@
+/home/gbb/TEC/Tarea_1/generator/cmake-build-debug/CMakeFiles/generator.dir
+/home/gbb/TEC/Tarea_1/generator/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gbb/TEC/Tarea_1/generator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
