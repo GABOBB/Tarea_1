@@ -1,0 +1,3 @@
+/home/gbb/TEC/Tarea_1/sorter/cmake-build-debug/CMakeFiles/sorter.dir
+/home/gbb/TEC/Tarea_1/sorter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/gbb/TEC/Tarea_1/sorter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
