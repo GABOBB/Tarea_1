@@ -7,4 +7,6 @@ add_executable(sorter main.cpp
         QS.cpp
         QS.h
         BS.cpp
-        BS.h)
+        BS.h
+        MM.cpp
+        MM.h)
