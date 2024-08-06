@@ -1,2 +1,12 @@
+#include "MM.cpp"
 
-#include "BS.h"
+
+class BS {
+public:
+    BS(MM memory);
+
+
+private:
+    
+};
+

@@ -9,4 +9,6 @@ add_executable(sorter main.cpp
         BS.cpp
         BS.h
         MM.cpp
-        MM.h)
+        MM.h
+        IS.cpp
+        IS.h)

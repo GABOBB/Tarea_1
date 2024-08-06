@@ -1,7 +1,18 @@
 #include <iostream>
 
-void sorting(std::string alg, std::string in, std::string out) {
+#include "BS.h"
+#include "QS.h"
 
+void sorting(std::string alg, std::string in, std::string out) {
+    if(alg == "QS") {
+        QS sort();
+    } else if(alg == "BS") {
+        BS sort();
+    }else if(alg == "IS") {
+
+    }else {
+        std::cerr <<"comandods invalido" << std::endl;
+    }
 }
 
 int main(int argc, char *argv[]) {
@@ -43,9 +54,11 @@ int main(int argc, char *argv[]) {
             return 1;
         }
     }
-    if(IN_FILE != "" or OT_FILE != "" or alg != "") {
+    if(IN_FILE == "" or OT_FILE == "" or alg == "") {
         std::cerr << "Fatal: error con argumento(s)" << std::endl;
         return 1;
     }
+    sorting(alg, IN_FILE, OT_FILE);
+
 
 }

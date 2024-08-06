@@ -73,6 +73,12 @@ build CMakeFiles/sorter.dir/MM.cpp.o: CXX_COMPILER__sorter_unscanned_Debug /home
   OBJECT_DIR = CMakeFiles/sorter.dir
   OBJECT_FILE_DIR = CMakeFiles/sorter.dir
 
+build CMakeFiles/sorter.dir/IS.cpp.o: CXX_COMPILER__sorter_unscanned_Debug /home/gbb/TEC/Tarea_1/sorter/IS.cpp || cmake_object_order_depends_target_sorter
+  DEP_FILE = CMakeFiles/sorter.dir/IS.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/sorter.dir
+  OBJECT_FILE_DIR = CMakeFiles/sorter.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target sorter
@@ -81,7 +87,7 @@ build CMakeFiles/sorter.dir/MM.cpp.o: CXX_COMPILER__sorter_unscanned_Debug /home
 #############################################
 # Link the executable sorter
 
-build sorter: CXX_EXECUTABLE_LINKER__sorter_Debug CMakeFiles/sorter.dir/main.cpp.o CMakeFiles/sorter.dir/QS.cpp.o CMakeFiles/sorter.dir/BS.cpp.o CMakeFiles/sorter.dir/MM.cpp.o
+build sorter: CXX_EXECUTABLE_LINKER__sorter_Debug CMakeFiles/sorter.dir/main.cpp.o CMakeFiles/sorter.dir/QS.cpp.o CMakeFiles/sorter.dir/BS.cpp.o CMakeFiles/sorter.dir/MM.cpp.o CMakeFiles/sorter.dir/IS.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/sorter.dir
   POST_BUILD = :

@@ -4,12 +4,13 @@
 
 #ifndef BS_H
 #define BS_H
-
+#include <MM>
+#include <string>
 
 
 class BS {
 public:
-
+    BS(MM memory);
 
 };
 
